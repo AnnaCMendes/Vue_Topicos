@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'https://8080-mineda-projetotopicos-6b573a2xcu3.ws-us72.gitpod.io/'
+axios.defaults.baseURL = 'https://8080-annacmendes-topicosespe-yh86rxdu87p.ws-us77.gitpod.io/'
 
 axios.interceptors.request.use(config => {
   if(store.state.token) {
